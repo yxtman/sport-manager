@@ -1,0 +1,18 @@
+unpackage/
+dist/
+target/
+node_modules/
+.hbuilderx/
+.idea/
+.vscode/
+*.iml
+
+# 本地环境与密钥
+.env
+.env.*
+application-local.yml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,107 @@
+{
+	"pages": [		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "运动管理",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/record/index",
+			"style": {
+				"navigationBarTitleText": "记录",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/stats/index",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/profile/achievements",
+			"style": {
+				"navigationBarTitleText": "成就中心"
+			}
+		},
+		{
+			"path": "pages/profile/account",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/social/friends",
+			"style": {
+				"navigationBarTitleText": "好友中心"
+			}
+		},
+		{
+			"path": "pages/social/feed",
+			"style": {
+				"navigationBarTitleText": "好友动态",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/record/edit",
+			"style": {
+				"navigationBarTitleText": "编辑运动"
+			}
+		},
+		{
+			"path": "pages/auth/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/auth/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "运动管理",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#1e80ff",
+		"backgroundColor": "#f6f7fb"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#6b7280",
+		"selectedColor": "#1e80ff",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/record/index",
+				"text": "记录"
+			},
+			{
+				"pagePath": "pages/stats/index",
+				"text": "统计"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的"
+			}
+		]
+	}
+}

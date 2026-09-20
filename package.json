@@ -1,0 +1,8 @@
+{
+  "name": "sport-manager",
+  "version": "1.0.0",
+  "description": "Sport tracking app with uni-app frontend and Spring Boot backend",
+  "main": "main.js",
+  "author": "Yu Xiaotian",
+  "license": "MIT"
+}

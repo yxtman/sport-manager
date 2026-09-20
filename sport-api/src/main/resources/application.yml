@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: ${SPORT_DB_URL:jdbc:mysql://localhost:3306/sport_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8}
+    username: ${SPORT_DB_USER:root}
+    password: ${SPORT_DB_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+sport:
+  jwt:
+    secret: ${SPORT_JWT_SECRET:change-me-change-me-change-me-change-me}
+    expiration-ms: 604800000
