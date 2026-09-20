@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sportdb;MODE=MySQL;DATABASE_TO_LOWER=TRUE;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+sport:
+  jwt:
+    secret: integration-test-secret-that-is-at-least-32-bytes
+    expiration-ms: 600000

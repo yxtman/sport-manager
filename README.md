@@ -1,6 +1,18 @@
 # SportManager · 运动管理 App
 
+[![CI](https://github.com/yxtman/sport-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/yxtman/sport-manager/actions/workflows/ci.yml)
+
 基于 uni-app + Spring Boot 3 的运动记录与社交应用：游客可在本地记录运动并查看统计，注册登录后通过 JWT 接入云端好友动态。
+
+> 项目暂未部署公网演示地址。前端和后端需要本机启动：HBuilderX 点击“运行到浏览器”后，通常会在 `http://localhost:5173/` 打开 H5 页面。
+
+## 自动化测试
+
+后端测试使用 H2 内存数据库，不需要本机 MySQL：
+
+```bash
+mvn -f sport-api/pom.xml test
+```
 
 ## 功能特性
 
