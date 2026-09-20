@@ -18,6 +18,10 @@ public class JwtService {
 
 	public JwtService(JwtProperties props) {
 		this.props = props;
+		String secret = props.getSecret();
+		if (secret == null || secret.getBytes(StandardCharsets.UTF_8).length < 32) {
+			throw new IllegalStateException("sport.jwt.secret requires at least 32 bytes; configure SPORT_JWT_SECRET");
+		}
 	}
 
 	private SecretKey key() {
